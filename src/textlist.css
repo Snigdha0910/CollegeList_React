@@ -95,3 +95,13 @@
     font-size:24px;
     font-weight:bold;
 }
+
+.deal{
+    background-color:rgb(183, 231, 199);
+    color:black;
+}
+
+.dealDiv{
+    color:black;
+    margin-bottom:3%;
+}

@@ -55,11 +55,19 @@ function TextTile(props){
                     <span style={{fontSize:'12px'}} dangerouslySetInnerHTML={{__html: colormaker(props.famous_nearest_places,'places')}}> 
                     </span>
                 </div>
-
+                {
+                props.promoted ? 
                 <button className='offers TextLeftDiv'>
                     <span dangerouslySetInnerHTML={{__html: colormaker(props.offertext,'offer')}}>
                     </span>
-                </button>
+                </button>:
+                <div className='TextLeftDiv dealDiv' align='left'>
+                    <button className='deal'> DEAL</button>
+                    <span style={{marginLeft:'2%'}} 
+                            dangerouslySetInnerHTML={{__html: colormaker(props.offertext,'offer')}}>
+                    </span>
+               </div> 
+                }
             </div>   
 
             <div className='FlexRight'> 
