@@ -1,0 +1,97 @@
+.TextLeftDiv{
+    margin-top:2%;
+    font-size:13px;
+    padding-left: 2%;
+}
+
+.TextRightDiv{
+    padding-right: 10%;
+
+}
+
+#banner{
+    width: 30px;
+    height: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:red;
+    position:absolute;
+    margin-left:5%;
+}
+
+#banner span{
+    color:white;
+    left:35%;
+    top:20%;
+}
+
+.texttileStyle{
+    border-radius:5px;
+    box-shadow:5px 10px 5px grey;
+    border-color:grey;
+    display:flex;
+    flex-wrap: wrap;
+    color:grey;
+}
+.stars{
+    width: 10px;
+    height:10px;
+}
+
+.num{
+    color:red;
+}
+
+.offers{
+    background-color:rgb(183, 231, 199);
+    opacity:1;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    margin-bottom: 5px;
+    width:100%;
+    float:left;
+    text-align:left;
+    color:black;
+}
+
+.amenities{
+    color:rgb(124, 206, 150);
+    position:absolute;
+    bottom:8%;
+    right:-4%;
+}
+
+.fees{
+    font-size:10px;
+}
+
+.FlexLeft{
+    flex:65%;
+}
+
+.FlexRight{
+    flex:35%;
+    margin-top:10px;
+    font-size:12px;
+}
+
+.college{
+    font-weight:bold;
+    font-size:18px;
+}
+
+.nearLight{
+    color:rgb(117, 114, 114);
+    font-size:12px;
+}
+
+.match{
+    color:rgb(21, 132, 146);
+    font-weight:bold;
+}
+
+.discountedFees{
+    color:red;
+    font-size:24px;
+    font-weight:bold;
+}

@@ -1,0 +1,74 @@
+.left-side {
+    padding: 20px;
+    position:relative;
+}
+.right-side{
+        padding: 20px;
+        position:relative;
+}
+
+.tile {
+    max-width: 100%;
+    max-height: 100%;
+    filter: brightness(50%);
+}
+img:hover{
+    filter: brightness(100%);
+}
+
+.promoted {
+    top:3%;
+    left:80%;  
+    position:absolute;
+    background-color:rgb(87, 155, 211);
+    color:white;
+    font-size: 16px;
+    padding:9px;
+}
+
+.bottom-div{
+    left:5%;
+    top:52%;
+    position:absolute; 
+}
+button{
+    background-color: white;
+    color:grey;
+    border:1px rgb(88, 85, 85);
+    border-radius: 15px;
+    padding:8px;
+}
+
+.ranking{
+    width:15%;
+    top:17%;
+    left:80%;  
+    position:absolute;
+    background-color: rgb(241, 185, 81); 
+    color:white;
+    border-radius: 7px; 
+}
+.ranking p{
+    font-size: 12px;
+    font-weight:bold;
+}
+
+.bottom-text{
+    top:55%;
+    left: 60%;
+    font-size:15px;
+    font-weight:bold;
+    position:absolute;
+    color:white;
+    font-size: 13px;
+}
+
+p { 
+    margin: 3px !important; 
+}
+
+.stars{
+    width: 10px;
+    height:10px;
+}
+
