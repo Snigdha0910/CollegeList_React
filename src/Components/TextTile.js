@@ -63,8 +63,7 @@ function TextTile(props){
                 </button>:
                 <div className='TextLeftDiv dealDiv' align='left'>
                     <button className='deal'> DEAL</button>
-                    <span style={{marginLeft:'2%'}} 
-                            dangerouslySetInnerHTML={{__html: colormaker(props.offertext,'offer')}}>
+                    <span style={{marginLeft:'2%'.color:'green'}}>{ props.offertext}
                     </span>
                </div> 
                 }

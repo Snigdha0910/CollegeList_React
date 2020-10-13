@@ -7,6 +7,7 @@ function App() {
    const [start,setStart]=useState(0);
   const [list,updateList]=useState([]);
   const [loading,setLoading]=useState(false);
+  const jsonLen = Object.keys(collegeList.colleges).length;
  
   useEffect(()=>{
       loadData();
@@ -38,11 +39,14 @@ function App() {
       }
       else
       {
+        if(start === jsonLen) setLoading(true);
+        else{
         setTimeout(()=>{
           updateList([...list,...arr]); 
         setLoading(false); 
         setStart(start + 10); 
         },100)
+        }
       }
      }
 
